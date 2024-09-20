@@ -1,0 +1,23 @@
+
+  .upper_nav {
+    display: flex;
+    width: 100%;
+    background-color: #e41c24;
+    text-align: center;
+  }
+
+  .upper_nav a {
+    color: white;
+  }
+
+  .tick-width {
+width: 80%;
+
+  }
+
+  @media screen and (max-width:550px) {
+
+    .upper_nav p {
+      display: grid;
+    }
+  }
